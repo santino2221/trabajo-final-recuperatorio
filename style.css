@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('transformer.jpg'); /* Cambia por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  /* Fija la imagen de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparencia para ver la imagen de fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+li.completado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.borrar-boton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
